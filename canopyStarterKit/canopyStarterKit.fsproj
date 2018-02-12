@@ -67,6 +67,7 @@
     <Compile Include="pages/PageIndex.fs" />
     <Compile Include="tests/Actions.fs" />
     <Compile Include="tests/Assertions.fs" />
+    <Compile Include="tests/SampleTests.fs" />
     <Compile Include="tests/Elements.fs" />
     <Compile Include="tests/Misc.fs" />
     <Compile Include="Tests.fs" />

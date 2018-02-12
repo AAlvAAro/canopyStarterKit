@@ -9,7 +9,8 @@ let underDevelopment () =
   //Actions.all()
   //Assertions.all()
   //Elementz.all()
-  Misc.all()
+  //Misc.all()
+  SampleTests.all()
 
 //This is a list of all tests, which is useful when running in a CI environment where you want to
 //run all tests, or a specific type of test like Full/Smoke, or tests for a specific
@@ -28,7 +29,7 @@ let all =
     Elements,   Full, Elementz.full
     Misc,       Full, Misc.full
   ]
-  
+
 //Code below does not need to be changed in most cases, it simply takes all of the tests and removes ones that dont
 //meet the tags provided from arguments
 let register tag testType =
